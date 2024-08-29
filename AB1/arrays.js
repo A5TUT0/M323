@@ -14,7 +14,7 @@ Spanisch.push(Leanguges);
 console.log()
 */
 
-Spanisch = ["Hola", "Como", "Estas?"];
+const Spanisch = ["Hola", "Como", "Estas?"];
 // Eliminar el primero y ultimo
 First = Spanisch.shift();
 latest = Spanisch.pop();
