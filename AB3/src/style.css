@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: darkblue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
