@@ -9,4 +9,3 @@ const countNumeric = R.compose(
 );
 
 console.log(countNumeric("", sentence));
-// Quellen https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
