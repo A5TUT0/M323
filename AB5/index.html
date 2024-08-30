@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calories Counter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="" alt="" />
+      <h1>Calories Counter</h1>
+    </header>
+    <section>
+      <h2>Mael</h2>
+      <input type="Enter meal name..." />
+      <h2>Calories</h2>
+      <input type="Enter calories number..." />
+      <button>Save</button>
+      <button>Cancel</button>
+    </section>
+    <div class="relative overflow-x-auto">
+      <table
+        class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+      >
+        <thead
+          class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400"
+        >
+          <tr>
+            <th scope="col" class="px-6 py-3 rounded-s-lg">Product name</th>
+            <th scope="col" class="px-6 py-3 rounded-e-lg">Price</th>
+            <th scope="col" class="px-6 py-3 rounded-e-lg">Deleate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-white dark:bg-gray-800">
+            <th
+              scope="row"
+              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+            >
+              Apple MacBook Pro 17"
+            </th>
+            <td class="px-6 py-4">$2999</td>
+            <td><button class="px-6 py-4">🗑️</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr class="font-semibold text-gray-900 dark:text-white">
+            <th scope="row" class="px-6 py-3 text-base">Total</th>
+            <td class="px-6 py-3">3</td>
+            <td class="px-6 py-3">21,000</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.bundle.min.js"></script>
+  </body>
+</html>
